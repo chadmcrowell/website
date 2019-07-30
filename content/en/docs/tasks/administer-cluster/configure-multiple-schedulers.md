@@ -40,7 +40,7 @@ and build the source.
 ```shell
 git clone https://github.com/kubernetes/kubernetes.git
 cd kubernetes
-make
+make quick-release
 ```
 
 Create a container image containing the kube-scheduler binary. Here is the `Dockerfile`
